@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        h1{
+            color: #111111;
+            margin-left: 9%;
+            font-size: large;
+            margin-bottom: -1%;
+            font-size:xx-large;
+        }
+        table,tr,th,td{
+            width: 900px;
+            border-spacing: 1em;
+            text-align: center;
+        }
+        button{
+            height:auto;
+            background-color:#a4c8da;
+            width: 70px;
+            padding: 15px;
+            border-radius: 22%;
+            border:rgb(247, 238, 238);
+        }
+        .plus-sign{
+            width: 60px;
+            height: 60px;
+            border-radius: 45%;
+            overflow: auto;
+            border-color: #44a08a;
+            color: rgba(141, 36, 109, 0.815) ;
+            font-weight:bolder;
+            font-size: 25px;
+        }
+        .button:active{
+              font-size: 12px;
+        }
+        .button:hover{
+            
+           border-width: 2px;
+            box-shadow: 10px 10px 10px #db4d84;
+            border-color: #27af89;
+            background-color: rgb(135, 117, 172);
+        }
+        .disable:hover{
+            cursor:default;
+        }
+        .disable{
+            opacity: 1;
+        }
+        .primary{
+            background-color:#0ec799 ;
+            color: #fff;
+        }
+        .secondary{
+            background-color: #cfe9f3;
+            color: rgb(63, 60, 60);
+        }
+        .destructive{
+            background-color: #f78467;
+            color:#fff;
+        }
+        .primary-2nd{
+            background-color: #fff;
+            color: #0cd1a0;
+        }
+        .primary-2nd-td{
+            background-color: #0cc496;
+        }
+        .primary-left{
+            background-color:#fff;
+            color:#0ecf9e;
+            border-color: #0cc496;
+            border-style: solid;
+        }
+        .secondary-2nd{
+            background-color: #fff;
+            color: rgb(61, 58, 58);
+            border-color: rgb(143, 137, 137);
+            border-style: solid;
+        }
+        .destructive-2nd{
+            background-color: #fff;
+            color:#d19485;
+            border-color:#f07c5f;
+            border-style: solid;
+        }
+        .primary-right{
+            background-color:#15aa85;
+            color:#fff;
+            border-color:#fff;
+            border-style: solid;
+        }
+        .button2:active{
+            background-color:#12ddaa;
+            color: #fff;
+        }
+        .button2{
+            border-width: 0.7px;
+        }
+        .
+        .button3:active{
+            background-color: #8a8c91;
+            color: rgb(68, 64, 64);
+        }
+        .primary-right-td{
+            background-color: #0cc294;
+        }
+        .disable2{
+            border: none;
+            opacity: 1;
+            cursor: default;
+        }
+        .dotted{
+            border-style: dotted;
+            padding: 9px 13px;
+        }
+        .dashed{
+            border-style: dashed;
+            padding: 9px 13px;
+        }
+        .solid{
+            border: solid;
+            padding: 9px 13px;
+        }
+        .double{
+            border: double;
+            padding: 9px 13px;
+        }
+        .groove{
+            border: groove;
+            padding: 9px 13px;
+        }
+        .ridge{
+            border: ridge;
+            padding: 9px 13px;
+        }
+        .inset{
+            border: inset;
+            padding: 9px 13px;
+        }
+        .outset{
+            border: outset;
+            padding: 9px 13px;
+        }
+        .none{
+            border: none;
+            padding: 9px 13px;
+        }
+        .hidden{
+            border: hidden;
+            padding: 9px 13px;
+        }
+       
+    </style>
+</head>
+<h1>Buttons</h1>
+<body>
+    <table cellpadding="10">
+        <tr>
+            <td></td>
+            <td></td>
+            <th style="color: #0b070c;">Primary</th>
+            <th style="color: #0b070c;">Secondary</th>
+            <th style="color: #0b070c;">Destructive</th>
+            <th style="color: #0b070c;">Primary</th>
+        <tr>
+            <th style="color: #0b070c;">Default, Hover, Press</th>
+            <td><button class=" plus-sign button">+</button></td>
+            <td><button class="button primary">Button</button></td>
+            <td><button class="button secondary">Button</button></td>
+            <td><button class="button destructive">Button</button></td>
+            <td class="primary-2nd-td"><button class="click primary-2nd">Button</button></td>
+        </tr>
+        <tr>
+            <th style="color: #0b070c;">Disabled</th>
+            <td><button class="plus-sign disable">+</button></td>
+            <td><button class="disable primary">Button</button></td>
+            <td><button class="disable secondary">Button</button></td>
+            <td><button class="disable destructive ">Button</button></td>
+            <td class="primary-2nd-td"><button class="disable primary-2nd">Button</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th style="color: #0b070c; background-color: #00ca99;">Secondary</th>
+        </tr>
+        <tr>
+            <th style="color: #0b070c;">Default,Hover, Press</th>
+            <td></td>
+            <td><button class=" button button2 primary-left" >Button</button></td>
+            <td><button class=" button button2 secondary-2nd">Button</button></td>
+            <td><button class=" button button2 destructive-2nd">Button</button></td>
+            <td class="primary-right-td"><button class=" click click2 primary-right">Button</button></td>
+        </tr>
+        <tr>
+            <th style="color: #0b070c;">Disabled</th>
+            <td></td>
+            <td><button class="disable2 primary-left" style="background-color:#00ca99 ; color:#ffffff">Button</button></td>
+            <td><button class="disable2 secondary-2nd" style="background-color:#bccfd5 ; color:gray">Button</button></td>
+            <td><button class="disable2 destructive-2nd" style="background-color:#fa7a59; color:#ffffff">Button</button></td>
+            <td class="primary-right-td"><button class="disable2 primary-right" style="background-color:#dfdbdb ; color:#00ca99">Button</button></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
