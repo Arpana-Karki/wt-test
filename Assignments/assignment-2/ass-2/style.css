@@ -1,0 +1,61 @@
+*{
+    padding :0;
+    margin : 0;
+   
+  }
+  .number{
+    background : url(flower.png) no-repeat;
+    background-size: auto;
+    height : auto;
+  }
+  .flower{
+    width : 100%;
+    height : 100%;
+    padding : 2px 15px;
+  }
+  .center{
+    position: absolute;
+    top : 90%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    font-family:Arial, Helvetica, sans-serif;
+    user-select:none;  
+  }
+  .center h1{
+    color : rgb(4, 21, 43);
+    font-size : 32px;
+    font-weight :bold;
+    width : 750px;
+    text-align : center;
+  }
+  .center h2{
+    color : rgb(22, 7, 7);
+    font-size : 32px;
+    font-weight : bold;
+    width : 750px;
+    text-align : center;
+  }
+  .center button{
+    margin : 60px 60px;
+  }
+  .buttons button{
+    height : 20px;
+    width : 110px;
+    font-size : 22px;
+    font-weight : bold;
+    color : #4b0b0b;
+    background : rgba(112, 178, 180);
+    border : 1px solid #3e4346;
+    outline :black;
+    cursor :progress;
+    border-radius: 20px;
+  
+  }
+  .buttons{
+    position:absolute;
+    top : 106%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select:none;  
+  }
