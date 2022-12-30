@@ -13,15 +13,17 @@
 # ASSIGNMENT 4):
 **Design Navbar, CTA, Hero section and 404 page.**
 # LABS:
-**LAB-1:**
-Make a webpage with the following html elements:
-Nested order and unorder list
-semantics tags for the layout
-text formatting tags
-image, video and audio
-iframe
+# LAB-1:
+**Make a webpage with the following html elements:**
+• Nested order and unorder list
+• semantics tags for the layout
+• text formatting tags
+• image, video and audio
+• iframe
 You can add additional elements and CSS to make the webpage more visually appealing.
 
-**LAB-2:**
-Flow layout and Positioned layout in CSS.
-Create a wrapper element as shown in the figure below to fill the empty space in smaller viewports. It specifies a maximum width and will horizontally center itself within the parent if space is available. It includes some horizontal "breathing room" so that its children aren't pressed up against the viewport's edges.
+# LAB-2:
+**Flow layout and Positioned layout in CSS.**
+• Create a wrapper element as shown in the figure below to fill the empty space in smaller viewports. It specifies a maximum width and will horizontally center itself within the parent if space is available. It includes some horizontal "breathing room" so that its children aren't pressed up against the viewport's edges.
+• Design a circuit as shown in the figure.
+• Design a decorative item as shown in the screenshot below.
