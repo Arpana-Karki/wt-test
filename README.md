@@ -12,6 +12,9 @@
       -Create buttons as per given figure. 
 # ASSIGNMENT 4):
 **Design Navbar, CTA, Hero section and 404 page.**
+# ASSIGNMENT 5):
+**Develop a simple calculator**
+
 # LABS:
 # LAB-1:
 **Make a webpage with the following html elements:**
