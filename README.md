@@ -14,6 +14,8 @@
 **Design Navbar, CTA, Hero section and 404 page.**
 # ASSIGNMENT 5):
 **Develop a simple calculator**
+# ASSIGNMENT 6):
+**Explain event bubbling and capture with an example**
 
 # LABS:
 # LAB-1:
