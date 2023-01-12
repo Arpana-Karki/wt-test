@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>reverse the string</title>
+</head>
+<body>
+   <input type="text" id="string">
+   <button id="none" onclick="chane()">reverse string</button>
+
+   <script>
+      function chane() {
+         var x = document.getElementById('string').value;
+         console.log(x);
+
+         var y = '';
+         for (var i = x.length-1; i>= 0; i--) {
+            y = y+ x[i] ;
+         }
+
+         document.getElementById('string').value=y;
+      }
+
+   </script>
+</body>
+</html>
+<body>
+
+</body>
